@@ -154,15 +154,15 @@ body {
 
 /* Apply bouncing animations to card images */
 .bounce1 {
-    animation: bounce1 2s ease infinite alternate;
+    animation: bounce1 3s ease infinite alternate;
 }
 
 .bounce2 {
-    animation: bounce2 2s ease infinite alternate;
+    animation: bounce2 2.9s ease infinite alternate;
 }
 
 .bounce3 {
-    animation: bounce3 2s ease infinite alternate;
+    animation: bounce3 3s ease infinite alternate;
 }
 
 
