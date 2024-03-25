@@ -27,6 +27,12 @@ body {
   width: 50px;
 }
 
+.custom-hr {
+  border: 0;
+  height: 1px;
+  background: linear-gradient(to right, rgba(169,169,169,0), rgba(169,169,169,0.5), rgba(169,169,169,0));
+}
+
 #map {
   height: 300px;
 }
