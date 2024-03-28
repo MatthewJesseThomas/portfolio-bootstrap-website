@@ -172,3 +172,160 @@ body {
 }
 
 
+.resume-heading {
+  font-size: 3.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.resume {
+  margin-top: 3rem;
+}
+
+body {
+  font-family: 'Poppins', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+.timeline-content:hover {
+  scale: 1.1;
+}
+
+.timeline-items {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.timeline-items::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background-color: #2f363e;
+  left: calc(50% - 1px);
+}
+
+.timeline-item {
+  margin-bottom: 40px;
+  width: 100%;
+  position: relative;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-item:nth-child(odd) {
+  padding-right: calc(50% + 30px);
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+  padding-left: calc(50% + 30px);
+}
+
+.timeline-dot {
+  height: 16px;
+  width: 16px;
+  background-color: #eaa023;
+  position: absolute;
+  left: calc(50% - 8px);
+  border-radius: 50%;
+  top: 10px;
+}
+
+.timeline-date {
+  font-size: 18px;
+  color: #eaa023;
+  margin: 6px 0 15px;
+}
+
+.timeline-content {
+  background-color: #2f363e;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.timeline-content h3 {
+  font-size: 20px;
+  color: #ffffff;
+  margin: 0 0 10px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.timeline-content h4 {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.academy-badge {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  animation: floating 5.5s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0%,
+  100% {
+    transform: translateY(0);
+    box-shadow: none;
+  }
+
+  50% {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+.academy-badge img {
+  width: 100%;
+  display: block;
+}
+
+.academy-badge:hover {
+  animation-play-state: paused;
+}
+
+.academy-badge img:hover {
+  background: linear-gradient(90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 0) 100%);
+  background-size: 200% 100%;
+  animation: shine 5.5s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: -200% center;
+  }
+}
+
+.CV {
+  width: 20rem;
+  height: 5rem;
+  border-radius: 3rem;
+  color: #c8c8c8;
+}
+
+.CV:hover {
+  scale: 1.08;
+  color: #c8c8c8;
+}
+
+.myWhite {
+  color: rgba(240, 248, 255, 0.929);
+  text-shadow: .3vw .3vw .3vh rgba(25, 21, 21, 0.826);
+}
+
+.headingShadow {
+  text-shadow: .3vw .3vw .3vh rgba(25, 21, 21, 0.826);
+}
