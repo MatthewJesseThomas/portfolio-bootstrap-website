@@ -2,5 +2,8 @@
   "dependencies": {
     "bootstrap": "^5.3.3",
     "leaflet": "^1.9.4"
+  },
+  "scripts": {
+    "upload": "git add . && git commit -m \"upload\" && git push"
   }
 }
